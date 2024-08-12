@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+.gallery, .videos {
+    margin-bottom: 2rem;
+}
+
+.gallery h2, .videos h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.photos img {
+    max-width: calc(33.333% - 1rem);
+    height: auto;
+    border-radius: 8px;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+video {
+    max-width: calc(50% - 1rem);
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+        margin: 0;
+    }
+    
+    .botao-contato {
+        padding: 15px 30px;
+        background-color: #007BFF;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 18px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .botao-contato:hover {
+        background-color: #0056b3;
+    }
